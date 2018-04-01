@@ -1,0 +1,17 @@
+{
+	"title": "2018",
+	"concerts": [
+		{
+			"date": "26.01.2018",
+			"place": "Laakirchen",
+			"event": "Rockhouse",
+			"link": "https://www.facebook.com/events/1759751567653458/"
+		},
+		{
+			"date": "19.05.2018",
+			"place": "Roter Gugl",
+			"event": "Spring Rock Open Air",
+			"link": "https://www.facebook.com/events/409382792852538/"
+		}
+	]
+}

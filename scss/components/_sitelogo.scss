@@ -1,0 +1,11 @@
+.sitelogo {
+	svg {
+		max-width: 100%;
+		height: auto;
+		fill: currentColor;
+
+		@media screen and (min-width: $breakpoint-small){
+			width: 200px;
+		}
+	}
+}

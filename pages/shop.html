@@ -1,0 +1,19 @@
+{% set body_class = "shop" %}
+{% set sitetitle = "Shop" %}
+{% extends "default.html" %}
+{% from "macros/product_list.html" import product_list as product_list %}
+
+{% block content %}
+<div class="{{ combos.container }} {{ combos.sitecontainer }}">
+	<h2>How to order?</h2>
+	<p>Write us an email to <a href="mailto:shop@redmachete.at" class="link dim">shop@redmachete.at</a> containing the following info:</p>
+	<ul>
+		<li>Which article</li>
+		<li>Amount </li>
+		<li>If it's a shirt: the size(s)</li>
+		<li>Your address</li>
+	</ul>
+
+	{{ product_list(products.products) }}
+</div>
+{% endblock %}

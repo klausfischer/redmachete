@@ -1,0 +1,45 @@
+{
+  "name": "redmachete-website",
+  "version": "1.0.0",
+  "description": "Finest Rock 'N' Roll ",
+  "main": "index.html",
+  "scripts": {
+    "dev": "BABEL_ENV=test gulp --require @babel/register",
+    "build": "BABEL_ENV=test gulp build --require @babel/register"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "author": "Klaus Fischer <klausfisc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/register": "^7.0.0-beta.42",
+    "autoprefixer": "^8.2.0",
+    "browser-sync": "^2.9.11",
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "imagemin-pngquant": "^5.1.0",
+    "lodash": "^4.17.5",
+    "pump": "^3.0.0",
+    "svgo": "^1.0.5"
+  },
+  "dependencies": {
+    "tachyons": "^4.9.1"
+  }
+}

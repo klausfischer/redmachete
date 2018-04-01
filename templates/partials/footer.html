@@ -1,0 +1,16 @@
+{% from "macros/social_icons.html" import social_icons as social_icons %}
+
+<section class="tc pv5 bg-black white">
+	<h2 class="f3 mt2 lh-title">Social Rock</h2>
+	<div class="flex justify-center white">
+		{{ social_icons(global.site.social_channels) }}
+	</div>
+</section>
+
+<footer class="pv4 f6 black-30 tc lh-copy bg-near-black gray">
+	{% include "partials/footernav.html" %}
+	<p class="f7 mb0 mt4">All music &amp; images by Red Machete. <br><a href="mailto:band@redmachete.at" class="link">Contact</a> – <a href="/imprint.html" class="link">Imprint</a></p>
+	<p class="f7 mt0">Rock 'N' Roll never dies.</p>
+</footer>
+
+<script type="text/javascript" src="/js/main.js"></script>

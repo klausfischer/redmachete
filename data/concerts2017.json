@@ -1,0 +1,177 @@
+{
+	"title": "2017",
+	"concerts": [
+		{
+			"date": "28.01.2017",
+			"place": "Wiener Neustadt - Triebwerk",
+			"event": "w/ Steamboat & Pastor",
+			"link": "https://www.facebook.com/events/110714176090223/"
+		},
+		{
+			"date": "10.02.2017",
+			"place": "Bad Waltersdorf",
+			"event": "Roter Gugl",
+			"link": "https://www.facebook.com/events/608181696057093/"
+		},
+		{
+			"date": "24.02.2017",
+			"place": "Traun - Spinnerei",
+			"event": "w/ Edenbridge",
+			"link": "https://www.facebook.com/events/740465632784405/"
+		},
+		{
+			"date": "25.03.2017",
+			"place": "Enns - Zuckerfabrik",
+			"event": "w/ Doctor Rock & Purple Bonsai",
+			"link": "https://www.facebook.com/events/704565073035444/"
+		},
+		{
+			"date": "08.04.2017",
+			"place": "Linz - Stadtwerkstatt",
+			"event": "w/ Howling Muffs, Jigsaw Beggars",
+			"link": "https://www.facebook.com/events/405321319809482/"
+		},
+		{
+			"date": "04.05.2017",
+			"place": "Wien - Viper Room",
+			"event": "Fury Over Vienna",
+			"link": "https://www.facebook.com/events/1254750064601650/"
+		},
+		{
+			"date": "13.05.2017",
+			"place": "Mauthausen",
+			"event": "N1 Oldschool Party",
+			"link": "https://www.facebook.com/events/240943566384194/"
+		},
+		{
+			"date": "26.05.2017",
+			"place": "Bozen (IT)",
+			"event": "Bar Loki",
+			"link": "https://www.facebook.com/Bar-Loki-1056714661050090/"
+		},
+		{
+			"date": "27.05.2017",
+			"place": "Outback Wolkersdorf",
+			"event": "Freekout Festival",
+			"link": "https://www.facebook.com/events/1511951492172618/"
+		},
+		{
+			"date": "10.06.2017",
+			"place": "Linz",
+			"event": "Thüsen Tak",
+			"link": "https://www.facebook.com/events/1319336204779660/"
+		},
+		{
+			"date": "29.06.2017",
+			"place": "Schwertberg",
+			"event": "Marktplatz",
+			"link": "https://www.facebook.com/events/478355962503787/"
+		},
+		{
+			"date": "01.07.2017",
+			"place": "Puchenstubn",
+			"event": "Hardrock im Bergdorf",
+			"link": "https://www.facebook.com/hardrockimbergdorf/"
+		},
+		{
+			"date": "13.07.2017",
+			"place": "Timelkam",
+			"event": "Soundgruam",
+			"link": "https://www.facebook.com/events/180777262460089/"
+		},
+		{
+			"date": "14.07.2017",
+			"place": "Graz",
+			"event": "Explosiv",
+			"link": "https://www.facebook.com/events/430704077306339/"
+		},
+		{
+			"date": "15.07.2017",
+			"place": "Graz / Gleinstätten",
+			"event": "Hoffest",
+			"link": ""
+		},
+		{
+			"date": "17.08.2017",
+			"place": "Linz",
+			"event": "Smaragd",
+			"link": "https://www.facebook.com/events/101092710545690/"
+		},
+		{
+			"date": "18.08.2017",
+			"place": "Wien",
+			"event": "Cafe Carina",
+			"link": "https://www.facebook.com/events/113741812610509/"
+		},
+		{
+			"date": "09.09.2017",
+			"place": "Treuchtlingen (GER)",
+			"event": "Eber-Hart Festival",
+			"link": "https://www.facebook.com/events/1736897326624405/"
+		},
+		{
+			"date": "11.09.2017",
+			"place": "Vienna",
+			"event": "Arena Beisl",
+			"link": "https://www.facebook.com/events/239434806581205/"
+		},
+		{
+			"date": "15.09.2017",
+			"place": "Vöcklabruck",
+			"event": "Sonograph Festival 2017",
+			"link": "https://www.facebook.com/events/1903119766574050/"
+		},
+		{
+			"date": "21.09.2017",
+			"place": "Berlin (GER)",
+			"event": "Wild At Heart",
+			"link": "https://www.facebook.com/events/1321958197900304/"
+		},
+		{
+			"date": "23.09.2017",
+			"place": "Heilbronn (GER)",
+			"event": "Red River"
+		},
+		{
+			"date": "13.10.2017",
+			"place": "Sopron (HUN)",
+			"event": "w/ Ozone Mama",
+			"link": "https://www.facebook.com/bugocsigaakusztikgarden"
+		},
+		{
+			"date": "14.10.2017",
+			"place": "Budapest (HUN)",
+			"event": "Instant w/ Ozone Mama",
+			"link": "https://www.facebook.com/bugocsigaakusztikgarden"
+		},
+		{
+			"date": "28.10.2017",
+			"place": "Ansfelden",
+			"event": "Rocktober",
+			"link": "https://www.facebook.com/events/168394020393395/"
+		},
+		{
+			"date": "31.10.2017",
+			"place": "Rockbar Amstetten",
+			"event": "Halloween Kick-Ass"
+		},
+		{
+			"date": "18.11.2017",
+			"place": "Bad Gastein",
+			"event": "Krampuskränzchen",
+			"link": "https://www.facebook.com/events/126134894821419/"
+		},
+		{
+			"date": "24.11.2017",
+			"place": "Linz - Ann And Pat",
+			"event": "w/ Ozone Mama",
+			"link": "https://www.facebook.com/events/180359225861503/"
+		},
+		{
+			"date": "25.11.2017",
+			"place": "St. Pölten",
+			"event": "Freiraum",
+			"link": "https://www.facebook.com/events/131108854196359/"
+		}
+	]
+}

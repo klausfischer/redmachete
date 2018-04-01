@@ -1,0 +1,11 @@
+{% macro presspics(presspics) %}
+<div class="grid gc1 gc3-ns gg2 mt5">
+	{% for presspic in presspics %}
+		<div class="presspic">
+			<img src="images/press/{{ presspic.filename }}-thumb.jpg" alt="Red Machete Presspic {{ presspic.filename }}" /><br>
+			<a href="images/press/{{ presspic.filename }}-rgb.jpg" class="link dim rm-red" target="_blank">{{ presspic.description_rgb }}</a><br>
+			<a href="images/press/{{ presspic.filename }}-cmyk.jpg" class="link dim rm-red" target="_blank">{{ presspic.description_cmyk }}</a>
+		</div>
+	{% endfor %}
+</div>
+{% endmacro %}

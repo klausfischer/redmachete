@@ -1,0 +1,7 @@
+<ul class="list ma0 pa0">
+	{% for item in global.footernav.items %}
+		<li class="db dib-ns">
+			<a href="{{ item.link }}" class="link dim dib pa2 pa3-ns">{{ item.label }}</a>
+		</li>
+	{% endfor %}
+</ul>

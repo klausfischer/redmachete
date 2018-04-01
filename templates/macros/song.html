@@ -1,0 +1,14 @@
+{% macro song(song) %}
+<article class="song grid gc1 gc2-ns gg2 mt6">
+	<header>
+			<h2 class="bt mt0 mb3 bw2 f2 lh-title pt3">{{ song.title }}</h2>
+			<div class="song__meta lh-copy">
+					<span class="f7 ttu db gray">Album: {{ song.album }}</span>
+					<span class="f7 ttu db gray">Year: {{ song.year }}</span>
+			</div>
+	</header>
+	<div class="lh-copy">
+			{{ song.lyrics | nl2br | safe }}
+	</div>
+</article>
+{% endmacro %}

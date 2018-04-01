@@ -1,0 +1,75 @@
+{
+	"title": "2011",
+	"concerts": [
+		{
+			"date": "14.01.2011",
+			"place": "Linz - KUBA Jugendzentrum",
+			"event": "with Nailfish & A Pandabear Nightmare"
+		},
+		{
+			"date": "05.03.2011",
+			"place": "Vöcklabruck - Jugendhaus Servas",
+			"event": "12 Hours Of Music"
+		},
+		{
+			"date": "17.03.2011",
+			"place": "Linz - Kulturzentrum Hof",
+			"event": "UHS Bandcontest"
+		},
+		{
+			"date": "16.04.2011",
+			"place": "Traun - Spinnerei",
+			"event": "Monsters Of Cover Rock"
+		},
+		{
+			"date": "20.05.2011",
+			"place": "Linz - Ann & Pat",
+			"event": "Fairplanet"
+		},
+		{
+			"date": "08.07.2011",
+			"place": "Haag - Bezirksstelle Rotes Kreuz",
+			"event": "resQnight"
+		},
+		{
+			"date": "29.07.2011",
+			"place": "Alberndorf - Spattendorf",
+			"event": "band-o-rama"
+		},
+		{
+			"date": "30.07.2011",
+			"place": "Weitra - Schöllbüchl",
+			"event": "Hellfest"
+		},
+		{
+			"date": "31.08.2011",
+			"place": "Linz - Thüsen Tak",
+			"event": "Live At Thü"
+		},
+		{
+			"date": "22.10.2011",
+			"place": "Linz - Palais Kaufmännisches Vereinshaus",
+			"event": "Maturaball BRG Ramsauerstraße"
+		},
+		{
+			"date": "25.10.2011",
+			"place": "Linz - Kulturzentrum Hof",
+			"event": "with Doctor Rock"
+		},
+		{
+			"date": "04.11.2011",
+			"place": "Linz - KUBA Jugendzentrum",
+			"event": "EUMMSL Gig"
+		},
+		{
+			"date": "05.11.2011",
+			"place": "Gmunden - Bierkeller Gmunden",
+			"event": "ABC Party"
+		},
+		{
+			"date": "18.11.2011",
+			"place": "Linz - Alte Welt",
+			"event": "Another Perfect Night"
+		}
+	]
+}

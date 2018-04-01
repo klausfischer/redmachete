@@ -1,0 +1,40 @@
+html {
+	font-size: 18px;
+	-webkit-font-smoothing: antialiased;
+	line-height: 0;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+a {
+	color: $rm-red;
+}
+
+
+
+.db > svg {
+	max-width: 100%;
+}
+
+.flex-row-reverse-ns {
+	@media screen and (min-width: $breakpoint-small) {
+		flex-direction: row-reverse;
+	}
+}
+
+.clip-razor {
+	clip-path: polygon(0 6%, 100% 0%, 100% 91%, 0% 100%);
+}
+
+.spacer {
+	background-image: url('/images/landing-image.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.page--band .spacer {
+	background-image: url('/images/landing-image-band.jpg');
+}

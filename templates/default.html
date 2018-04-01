@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+{% set combos = {
+	container: "mw8 ph3 ph4-ns center",
+	sitecontainer: "white pt5 pb6 lh-copy",
+	sitetitle: "w-100 f-subheadline f-headline-ns lh-solid white fw2",
+	spacer: "spacer vh-100 overflow-hidden flex flex-column justify-end",
+	btn: "btn link dim dib ph3 pv2 bg-rm-red white no-underline"
+} %}
+
+<body class="page--{{ body_class }} sans-serif">
+
+	{% block sitenav %}
+		{% include "partials/sitenav.html" %}
+	{% endblock %}
+
+	{% block siteheader %}
+	<div class="{{ combos.spacer }}">
+		<h1 class="{{ combos.container }} {{ combos.sitetitle }} ">{{ sitetitle }}</h1>
+	</div>
+	{% endblock %}
+
+	<main class="bg-near-black white">
+  {% block content %}
+
+	{% endblock %}
+	</main>
+
+  {% include "partials/footer.html" %}
+
+</body>
+</html>

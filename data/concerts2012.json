@@ -1,0 +1,40 @@
+{
+	"title": "2012",
+	"concerts": [
+		{ 
+			"date": "03.02.2012",
+			"place": "Linz - Posthof",
+			"event": "Metal Overdose Vol. 38"
+		},
+		{ 
+			"date": "07.04.2012",
+			"place": "Neumarkt/Hausruck",
+			"event": "Wurmfestival"
+		},
+		{ 
+			"date": "19.05.2012",
+			"place": "Wien - Replugged",
+			"event": "with Hollywood Burnouts & Los Deepest"
+		},
+		{ 
+			"date": "16.06.2012",
+			"place": "Linz - Ann & Pat",
+			"event": "with Oblivious & Risted"
+		},
+		{ 
+			"date": "29.06.2012",
+			"place": "Linz - Ann & Pat",
+			"event": "Linzer Rock Festival"
+		},
+		{ 
+			"date": "28.07.2012",
+			"place": "Schöllbüchl",
+			"event": "Hellfest"
+		},
+		{ 
+			"date": "02.10.2012",
+			"place": "Linz - KUBA",
+			"event": "with Nuclear Havoc & Khorst"
+		}
+	]
+}

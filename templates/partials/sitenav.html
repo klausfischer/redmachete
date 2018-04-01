@@ -1,0 +1,14 @@
+<div class="sitenav">
+	<nav class="pv4 flex-ns justify-between-ns mw8 ph3 ph4-ns center">
+		<a href="/" class="sitelogo dim white db mw-100 flex-ns flex-column-ns justify-center-ns">
+			{{ 'dist/images/logo.svg' | includeFile | safe }}
+		</a>
+		<ul class="list ma0 pa0 flex justify-center">
+		{% for item in global.mainnav.items %}
+			<li class="dib">
+				<a href="{{ item.link }}" class="link dim white dib pa3 f5 ttu b">{{ item.label }}</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</nav>
+</div>

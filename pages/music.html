@@ -1,0 +1,72 @@
+{% set body_class = "music" %}
+{% set sitetitle = "Music" %}
+{% extends "default.html" %}
+
+{% block content %}
+<div class="{{ combos.container }} {{ combos.sitecontainer }}">
+
+	<div class="grid gc1 gc2-m gg2 mt5">
+		<div>
+			<img src="images/shop/brightlights.jpg" class="mw-100" alt="Bright Lights Artwork">
+		</div>
+		<div>
+			<h2 class="mt0 mt2-m">Bright Lights</h2>
+			<p>Our full length debut album with 10 Tracks of finest Hard Rock. Available as CD, LP or Download.</p>
+			<ol>
+				<li>Hungry</li>
+				<li>Never Stop</li>
+				<li>All For You</li>
+				<li>One More Chance</li>
+				<li>Ninentynine And One</li>
+				<li>Feeding The Flame</li>
+				<li>Give It All Up</li>
+				<li>Here And Now</li>
+				<li>Bad Love</li>
+				<li>Rock The Show</li>
+			</ol>
+			<p>Total running time: 45:00</p>
+			<a class="{{ combos.btn }}" href="/shop">Get it!</a>
+		</div>
+	</div>
+
+	<div class="grid gc1 gc2-m gg2 mt5">
+		<div class="aspect-ratio aspect-ratio--16x9">
+			<iframe class="aspect-ratio--object" frameborder="0" src="//www.youtube.com/embed/YAQmitAbXTo" allowfullscreen></iframe>
+		</div>
+		<div>
+			<h2 class="mt0 mt2-m">One More Chance Video</h2>
+			<p>Music video for One More Chance, a track from the Bright Lights album.</p>
+		</div>
+	</div>
+
+	<div class="grid gc1 gc2-m gg2 mt5">
+		<div class="aspect-ratio aspect-ratio--16x9">
+			<iframe class="aspect-ratio--object" frameborder="0" src="//www.youtube.com/embed/c7f7SL1qwJ0" allowfullscreen></iframe>
+		</div>
+		<div>
+			<h2 class="mt0 mt2-m">Ninentynine And One</h2>
+			<p>Music video for Ninentynine And One, a track from the Bright Lights album.</p>
+		</div>
+	</div>
+
+	<div class="grid gc1 gc2-m gg2 mt5">
+		<div>
+			<iframe style="border: 0; max-width: 100%; height: 430px; margin: 0 auto; display: block;" src="http://bandcamp.com/EmbeddedPlayer/album=1766048975/size=large/bgcol=333333/linkcol=bf9969/notracklist=true/transparent=true/" seamless><a href="http://redmachete.bandcamp.com/album/electric-power">Electric Power by Red Machete</a></iframe>
+		</div>
+		<div>
+			<h2 class="mt0 mt2-m">Electric Power</h2>
+		<p>Our first EP, 4 pages booklet, recorded in Hagenberg.</p>
+		<ol>
+			<li>High Volume Rock 'N' Roll</li>
+			<li>City Of Angels</li>
+			<li>Be Prepared</li>
+			<li>Lonely Streets</li>
+			<li>New Way</li>
+		</ol>
+		<p>Total running time: 22:21</p>
+		<a class="{{ combos.btn }}" href="/shop">Get it!</a>
+		</div>
+	</div>
+
+</div>
+{% endblock %}

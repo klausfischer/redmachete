@@ -1,0 +1,21 @@
+{% set body_class = "index" %}
+{% set sitetitle = "" %}
+{% extends "default.html" %}
+{% import "macros/gigtable.html" as gigtable %}
+
+{% block siteheader %}
+<div class="spacer vh-100 overflow-hidden flex justify-center items-center">
+	<a href="#" class="db pa3 br-100 bg-rm-red-70 white grow-large">
+		{{ "dist/images/icons/play.svg" | includeFile | safe }}
+	</a>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="{{ combos.container }} {{ combos.sitecontainer }}">
+	<h1 class="f1 lh-title">Dates</h1>
+	{{ gigtable.gigtable(concerts2018.title, concerts2018.concerts) }}
+	{{ gigtable.gigtable(concerts2017.title, concerts2017.concerts) }}
+</div>
+
+{% endblock %}

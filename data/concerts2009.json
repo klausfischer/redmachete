@@ -1,0 +1,15 @@
+{
+	"title": "2009",
+	"concerts": [
+		{
+			"date": "30.12.2009",
+			"place": "Linz - Gasthof Auerhahn",
+			"event": "Jamsession"
+		},
+		{
+			"date": "25.12.2009",
+			"place": "Linz - Gasthof Auerhahn",
+			"event": "Jamsession"
+		}
+	]
+}

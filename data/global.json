@@ -1,0 +1,116 @@
+{
+	"site": {
+		"version": {
+			"cache": "1"
+		},
+		"title": "Red Machete",
+		"description": "Finest Rock 'N' Roll from Austria",
+		"url": "http://www.redmachete.at",
+		"img": "http://www.redmachete.at/images/share.jpg",
+		"fb_url": "https://facebook.com/redmachete",
+		"ig_url": "https://www.instagram.com/explore/tags/redmachete/",
+		"yt_url": "https://www.youtube.com/redmachete/",
+		"social_channels": [
+			{
+				"name": "facebook",
+				"icon": "dist/images/icons/facebook-f.svg",
+				"url": "https://facebook.com/redmachete"
+			},
+			{
+				"name": "Instagram",
+				"icon": "dist/images/icons/instagram.svg",
+				"url": "https://www.instagram.com/explore/tags/redmachete/"
+			},
+			{
+				"name": "YouTube",
+				"icon": "dist/images/icons/youtube.svg",
+				"url": "https://www.youtube.com/redmachete/"
+			}
+		]
+	},
+	"band": [
+		{
+			"name": "Marco",
+			"instrument": "Vocals & Guitar",
+			"email": "marco@redmachete.at",
+			"image": "images/marco.jpg",
+			"description": "„Only a Gibson is good enough“ is the answer. Wisdom of our lead singer and guitar whirlwind. The stage is his home, where he twists with his guitar, and makes the audience sing along."
+		},
+		{
+			"name": "Chris",
+			"instrument": "Bass",
+			"email": "chris@redmachete.at",
+			"image": "images/chris.jpg",
+			"description": "With his 4 strings he controls the lower frequencies as the first half of the rhythm section. A perfect example of a rock-solid groover, where it's obvious that he's feeling every played note."
+		},
+		{
+			"name": "Klaus",
+			"instrument": "Drums",
+			"email": "klaus@redmachete.at",
+			"image": "images/klaus.jpg",
+			"description": "At the back a 1982 Tama Superstar drumkit gets smashed every gig and is still looking like 3 weeks old. Thunderous grooves and lots of sweat are the special ingredients of Klaus, completing the experience of a real rock show."
+		}
+	],
+	"presskit": "https://www.dropbox.com/s/qienzx6xumng1sb/RedMachetePresskit2018.zip?dl=0",
+	"presspics": [
+		{
+			"filename": "presspic-wood",
+			"description_rgb": "RGB (0,7MB)",
+			"description_cmyk": "CMYK (3,0MB)"
+		},
+		{
+			"filename": "live",
+			"description_rgb": "RGB (0,7MB)",
+			"description_cmyk": "CMYK (2,9MB)"
+		},
+		{
+			"filename": "presspic-chair",
+			"description_rgb": "RGB (0,7MB)",
+			"description_cmyk": "CMYK (2,9MB)"
+		}
+	],
+	"mainnav": {
+		"items": [
+			{
+				"link": "/band.html",
+				"label": "Band"
+			},
+			{
+				"link": "/music.html",
+				"label": "Music"
+			},
+			{
+				"link": "/shop.html",
+				"label": "Shop"
+			}
+		]
+	},
+	"footernav": {
+		"items": [
+			{
+				"link": "/index.html",
+				"label": "Home"
+			},
+			{
+				"link": "/band.html",
+				"label": "Band"
+			},
+			{
+				"link": "/music.html",
+				"label": "Music"
+			},
+			{
+				"link": "/shop.html",
+				"label": "Shop"
+			},
+			{
+				"link": "/band.html#press",
+				"label": "Press"
+			},
+			{
+				"link": "/lyrics.html",
+				"label": "Lyrics"
+			}
+		]
+	}
+}

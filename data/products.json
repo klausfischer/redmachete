@@ -1,0 +1,46 @@
+{
+	"products": [
+		{
+			"id": "brightLights",
+			"image": "images/shop/brightlights.jpg",
+			"alt": "Bright Lights front cover showing only the silhouette of the band",
+			"title": "Bright Lights",
+			"description": "10 Tracks of finest Hard Rock. Released in 2016. Available as CD and LP (incl. download code)."
+		},
+		{
+			"image": "images/shop/buttons-brightlights.jpg",
+			"alt": "1 button with Red Machete logo, 1 button with 'ROCK' in capital letters",
+			"title": "Button",
+			"description": "2,5 cm diameter buttons",
+			"price": "€ 1"
+		},
+		{
+			"image": "images/shop/shirt-bl-front.jpg",
+			"alt": "Black shirt, with a dark red Red Machete Logo and a stylized band picture in creamy color",
+			"title": "Bright Lights Tour Shirt (Men)",
+			"description": "Gildan Softstyle Ringspun in black. Front- and Backprint. Available in S,M,L,XL,XXL.",
+			"price": "€ 20"
+		},
+		{
+			"image": "images/shop/electricpower.jpg",
+			"alt": "Black album cover with entangled sandy band logo",
+			"title": "Electric Power",
+			"description": "Our second EP, 4 pages booklet, recorded in Hagenberg.",
+			"price": "€ 8"
+		},
+		{
+			"image": "images/shop/shirt-lion.jpg",
+			"alt": "'Sand' colored shirt with a huge lion print in dark brown",
+			"title": "Lion Shirt (Men)",
+			"description": "Rock is here to stay. Gildan Softstyle Ringspun Shirt (super cozy) in \"Sand\" color. Available in S,M,L,XL,XXL.",
+			"price": "€ 15"
+		},
+		{
+			"image": "images/shop/shirt-angels.jpg",
+			"alt": "Dark red shirt with white excerpts from the 'City Of Angels' lyrics",
+			"title": "Angels Shirt (Girls)",
+			"description": "Take me down to the City of Angels. Stella Wants organic cotton shirt for girls. Available in XS,S,M,L.",
+			"price": "€ 15"
+		}
+	]
+}

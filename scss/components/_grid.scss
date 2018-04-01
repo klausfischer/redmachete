@@ -1,0 +1,97 @@
+.grid {
+  display: grid;
+}
+
+/*
+ COLUMNS
+*/
+
+@for $i from 1 through 8 {
+  .gc#{$i} {
+    grid-template-columns: repeat(#{$i}, 1fr);
+  }
+}
+
+@for $i from 1 through 8 {
+  @media screen and (min-width: $breakpoint-small) {
+    .gc#{$i}-ns {
+      grid-template-columns: repeat(#{$i}, 1fr);
+    }
+  }
+}
+
+@for $i from 1 through 8 {
+  @media screen and (min-width: $breakpoint-medium) {
+    .gc#{$i}-m {
+      grid-template-columns: repeat(#{$i}, 1fr);
+    }
+  }
+}
+
+/*
+* GRID COLUMN START
+*/
+@for $i from 1 through 8 {
+  .gc-start-#{$i} {
+    grid-column-start: $i;
+  }
+}
+
+@for $i from 1 through 8 {
+  @media screen and (min-width: $breakpoint-small) {
+    .gc-start-#{$i}-ns {
+      grid-column-start: $i;
+    }
+  }
+}
+
+@for $i from 1 through 8 {
+  @media screen and (min-width: $breakpoint-medium) {
+    .gc-start-#{$i}-m {
+      grid-column-start: $i;
+    }
+  }
+}
+
+/*
+* GRID COLUMN END
+*/
+@for $i from 1 through 9 {
+  .gc-end-#{$i} {
+    grid-column-end: $i;
+  }
+}
+
+@for $i from 1 through 9 {
+  @media screen and (min-width: $breakpoint-small) {
+    .gc-end-#{$i}-ns {
+      grid-column-end: $i;
+    }
+  }
+}
+
+@for $i from 1 through 9 {
+  @media screen and (min-width: $breakpoint-small) {
+    .gc-end-#{$i}-m {
+      grid-column-end: $i;
+    }
+  }
+}
+
+/*
+ GAP
+*/
+
+.gg1 {
+  grid-gap: 1rem;
+}
+
+.gg2 {
+  grid-gap: 1.5rem;
+}
+
+@media screen and (min-width: $breakpoint-small) {
+  .gg2-ns {
+    grid-gap: 1.5rem;
+  }
+}

@@ -1,0 +1,186 @@
+{
+	"title": "2016",
+	"concerts": [
+		{
+			"date": "07.01.2016",
+			"place": "Wien - Viper Room",
+			"event": "Rock Zone",
+			"link": "https://www.facebook.com/events/840537586063831/"
+		},
+		{
+			"date": "13.01.2016",
+			"place": "Wien - B72",
+			"event": "w/ Reverend Backflash",
+			"link": "https://www.facebook.com/events/463545727158273/"
+		},
+		{
+			"date": "20.02.2016",
+			"place": "Wolkersdorf - Outback",
+			"event": "w/ Escape Artists",
+			"link": "https://www.facebook.com/events/904284363018313/"
+		},
+		{
+			"date": "08.04.2016",
+			"place": "Pecs (HUN) - Esti Cafe",
+			"event": "w/ Ozone Mama",
+			"link": "https://www.facebook.com/events/891176110979432/"
+		},
+		{
+			"date": "09.04.2016",
+			"place": "Linz - Smaragd",
+			"event": "w/ Ozone Mama & Fat Fingers",
+			"link": "https://www.facebook.com/events/842629605870896/"
+		},
+		{
+			"date": "10.04.2016",
+			"place": "Wien - Replugged",
+			"event": "w/ Ozone Mama & Fat Fingers",
+			"link": "https://www.facebook.com/events/1739922786223378/"
+		},
+		{
+			"date": "23.06.2016",
+			"place": "Perg - Hauptplatz",
+			"event": "Open Air",
+			"link": "https://www.facebook.com/events/1033681436667230/"
+		},
+		{
+			"date": "30.06.2016",
+			"place": "JKU Linz",
+			"event": "ÖH Sommerfest",
+			"link": "https://www.facebook.com/events/1605701113076010/"
+		},
+		{
+			"date": "01.07.2016",
+			"place": "Linz - Donaupark Stadion",
+			"event": "RELEASEFEST",
+			"link": "https://www.facebook.com/events/1712453279032570/",
+			"highlight": true
+		},
+		{
+			"date": "07.07.2016",
+			"place": "Perg",
+			"event": "GH Emhofer Jam"
+		},
+		{
+			"date": "08.07.2016",
+			"place": "Burg Clam",
+			"event": "Clamrock w/ Deep Purple",
+			"link": "https://www.facebook.com/events/1082111155133980/"
+		},
+		{
+			"date": "09.07.2016",
+			"place": "Laakirchen",
+			"event": "Rockhouse",
+			"link": "https://www.facebook.com/events/1868606356699507/"
+		},
+		{
+			"date": "14.07.2016",
+			"place": "Schwertberg",
+			"event": "Jam",
+			"link": "https://www.facebook.com/events/1561286964171763/"
+		},
+
+		{
+			"date": "15.07.2016",
+			"place": "Heilbronn",
+			"event": "Red River",
+			"link": "https://www.facebook.com/events/1785428775009269/"
+		},
+		{
+			"date": "16.07.2016",
+			"place": "Graz / Gleinstätten",
+			"event": "Hoffest",
+			"link": ""
+		},
+		{
+			"date": "20.07.2016",
+			"place": "Hamburg (DE)",
+			"event": "Zwick Altona",
+			"link": "https://www.facebook.com/events/1727808810818396/"
+		},
+		{
+			"date": "21.07.2016",
+			"place": "Hamburg (DE)",
+			"event": "Zwick Altona",
+			"link": "https://www.facebook.com/events/1813227605571764/"
+		},
+		{
+			"date": "22.07.2016",
+			"place": "Hamburg (DE) - Marias Ballroom",
+			"event": "w/ Ripe & Ruin & Axid Rain",
+			"link": "https://www.facebook.com/events/372731399564005/"
+		},
+		{
+			"date": "23.07.2016",
+			"place": "Hamburg (DE)",
+			"event": "Zwick St. Pauli",
+			"link": "https://www.facebook.com/events/152751525132136/"
+		},
+		{
+			"date": "24.07.2016",
+			"place": "Lüneburg",
+			"event": "Zwick",
+			"link": "https://www.facebook.com/events/480243708812510/"
+		},
+		{
+			"date": "25.07.2016",
+			"place": "Budweis (CZ)",
+			"event": "Velbloud Music Bar",
+			"link": "https://www.facebook.com/events/920670584726408/"
+		},
+		{
+			"date": "30.07.2016",
+			"place": "Königswiesen",
+			"event": "Rock Night",
+			"link": "https://www.facebook.com/events/584963005001197/"
+		},
+		{
+			"date": "06.08.2016",
+			"place": "St. Konrad, Badesee",
+			"event": "MRC Slyders Seefest",
+			"link": "https://www.facebook.com/events/166218293793884/"
+		},
+		{
+			"date": "12.08.2016",
+			"place": "Mauthausen",
+			"event": "Castello Open Air",
+			"link": "https://www.facebook.com/events/1305982669430956/"
+		},
+		{
+			"date": "26.09.2016",
+			"place": "Wien - Viper Room",
+			"event": "w/ Laced In Lust",
+			"link": "https://www.facebook.com/events/723091317828786"
+		},
+		{
+			"date": "15.10.2016",
+			"place": "Escape Metalcorner",
+			"event": "w/ Ghost & Benefits",
+			"link": "https://www.facebook.com/events/828824127217819"
+		},
+		{
+			"date": "05.11.2016",
+			"place": "Wien - Cafe Carina",
+			"event": "w/ Ghost & Benefits",
+			"link": "https://www.facebook.com/events/1032917760140924"
+		},
+		{
+			"date": "02.12.2016",
+			"place": "Budapest (HUN)",
+			"event": "w/ Ozone Mama",
+			"link": "https://www.facebook.com/gmkdj"
+		},
+		{
+			"date": "03.12.2016",
+			"place": "Sopron (HUN)",
+			"event": "w/ Ozone Mama",
+			"link": "https://www.facebook.com/bugocsigaakusztikgarden"
+		},
+		{
+			"date": "16.12.2016",
+			"place": "Linz - Ann & Pat",
+			"event": "w/ Ozone Mama",
+			"link": "https://www.facebook.com/events/327613094272621/"
+		}
+	]
+}

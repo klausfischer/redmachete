@@ -1,0 +1,11 @@
+.rm-red {
+	color: $rm-red;
+}
+
+.bg-rm-red {
+	background-color: $rm-red;
+}
+
+.bg-rm-red-70 {
+	background-color: transparentize($rm-red, 0.2);
+}

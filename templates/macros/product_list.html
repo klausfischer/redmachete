@@ -1,0 +1,43 @@
+{% macro product_list(products) %}
+<ul class="list pl0 columns">
+	{% for p in products %}
+		<li class="product dib w-100 mt5">
+			<img src="{{ p.image }}" alt="{{ p.alt }}">
+			<h3 class="mt1">{{ p.title }}</h3>
+			<p>{{ p.description | safe }}</p>
+			<span class="mt4 db bt pt2 tr gray">{{ p.price }}</span>
+			{% if p.id == "brightLights" %}
+				<ul class="list pl0 gray">
+					<li class="flex justify-between mt2">
+						<span class="flex-grow-1">Amazon</span>
+						<a href="https://www.amazon.de/Bright-Lights-Red-Machete/dp/B01GVTKQUC/" class="link dim rm-red mr3">CD</a>
+						<a href="https://www.amazon.de/Bright-Lights-Vinyl-LP/dp/B00ZLC9WTW/" class="link dim rm-red">LP</a>
+					</li>
+					<li class="flex justify-between mt2">
+						<span class="flex-grow-1">Amazon MP3</span>
+						<a href="https://www.amazon.com/Bright-Lights-Red-Machete/dp/B01H4R5OZW/" class="link dim rm-red">Download</a>
+					</li>
+					<li class="flex justify-between mt2">
+						<span class="flex-grow-1">Saturn</span>
+						<a href="http://www.saturn.de/de/product/_red-machete-bright-lights-rock-cd-2146627.html" class="link dim rm-red mr3">CD</a>
+						<a href="https://www.saturn.de/de/product/_red-machete-bright-lights-lp-rock-vinyl-2146628.html" class="link dim rm-red">LP</a>
+					</li>
+					<li class="flex justify-between mt2">
+						<span class="flex-grow-1">Thalia</span>
+						<a href="http://www.thalia.at/shop/home/suchartikel/bright_lights/red_machete/EAN9008798205264/ID45573770.html" class="link dim rm-red mr3">CD</a>
+						<a href="http://www.thalia.at/shop/home/suchartikel/bright_lights_lp/red_machete/EAN9008798206612/ID45573777.html" class="link dim rm-red">LP</a>
+					</li>
+					<li class="flex justify-between mt2">
+						<span class="flex-grow-1">iTunes</span>
+						<a href="https://itunes.apple.com/at/album/bright-lights/id1124440511?app=itunes" class="link dim rm-red">Download</a>
+					</li>
+					<li class="flex justify-between mt2">
+						<span class="flex-grow-1">Apple Music</span>
+						<a href="https://itunes.apple.com/at/album/bright-lights/id1124440511?app=music" class="link dim rm-red">Download</a>
+					</li>
+				</ul>
+			{% endif %}
+		</li>
+	{% endfor %}
+</ul>
+{% endmacro %}

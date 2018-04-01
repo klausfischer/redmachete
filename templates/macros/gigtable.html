@@ -1,0 +1,37 @@
+{% macro gigtable(title, gigs) %}
+{% set combos = {
+	tableheader: "fw7 tracked f6 ttu mid-gray tl bb b--dark-gray pv3 pr3"
+} %}
+<div class="gigtable overflow-auto mt4">
+
+	<h3 class="f3 lh-title">{{title}}</h3>
+	<table class="f7 f5-ns w-100 collapse lh-copy">
+
+		<thead>
+			<tr>
+				<th class="{{ combos.tableheader }}">Date</th>
+				<th class="{{ combos.tableheader }}">Place</th>
+				<th class="{{ combos.tableheader }}">Event</th>
+			</tr>
+		</thead>
+
+		<tbody>
+		{% for gig in gigs %}
+			<tr {% if gig.highlight %}class="gig--highlighted"{% endif %}>
+				<td class="pv2 pr3 bb b--dark-gray w4">{{ gig.date }}</td>
+				<td class="pv2 pr3 bb b--dark-gray mw4 w5-ns w7-m truncate">{{ gig.place }}</td>
+				<td class="pv2 pr3 bb b--dark-gray">
+					{% if gig.link %}
+						<a class="link dim" href="{{ gig.link }}" target="_blank">{{ gig.event }}</a>
+					{% else %}
+						{{ gig.event }}
+					{% endif %}
+				</td>
+			</tr>
+		{% endfor %}
+
+		</tbody>
+	</table>
+
+</div>
+{% endmacro %}

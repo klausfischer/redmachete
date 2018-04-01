@@ -1,0 +1,12 @@
+{% set body_class = "lyrics" %}
+{% set sitetitle = "Lyrics" %}
+{% extends "default.html" %}
+{% from "macros/song.html" import song as song %}
+
+{% block content %}
+<div class="{{ combos.container }} {{ combos.sitecontainer }}">
+{% for s in lyrics.songs %}
+	{{ song(s) }}
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+<head>
+  <title>{% if sitetitle %}{{ sitetitle }} | {% endif %}{{ global.site.title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ global.site.description }}">
+
+  <!-- Opengraph-->
+  <meta property="og:title" content="{{ global.site.title }}">
+  <meta property="og:url" content="{{ global.site.url }}">
+  <meta property="og:image" content="{{ global.site.img }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ global.site.url }}">
+  <meta property="og:description" content="{{ global.site.description }}">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png?v={{global.site.version.cache}}">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png?v={{global.site.version.cache}}">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png?v={{global.site.version.cache}}">
+	<link rel="manifest" href="/images/favicons/site.webmanifest?v={{global.site.version.cache}}">
+	<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg?v={{global.site.version.cache}}" color="#bc202e">
+	<link rel="shortcut icon" href="/images/favicons/favicon.ico?v={{global.site.version.cache}}">
+	<meta name="msapplication-TileColor" content="#bc202e">
+	<meta name="msapplication-config" content="/images/favicons/browserconfig.xml?v={{global.site.version.cache}}">
+	<meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/main.css">
+</head>

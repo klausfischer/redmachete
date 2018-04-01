@@ -1,0 +1,16 @@
+{
+	"src": {
+		"data": "data/**/*.json",
+		"pages": "pages/*.html",
+		"templates": "templates",
+		"styles": "scss",
+		"scripts": "js",
+		"images": "images/**/*"
+	},
+	"dest": {
+		"root": "dist",
+		"styles": "dist/css",
+		"scripts": "dist/scripts",
+		"images": "dist/images"
+	}
+}

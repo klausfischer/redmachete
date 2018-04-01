@@ -1,0 +1,46 @@
+{% set body_class = "band" %}
+{% set sitetitle = "Band" %}
+{% extends "default.html" %}
+{% from "macros/presspics.html" import presspics as presspics %}
+
+{% block content %}
+<div class=" {{ combos.sitecontainer }}">
+	{% for member in global.band %}
+		<section class="bandmember {% if loop.index0 === 1 %} clip-razor bg-black {% endif %}">
+			<div class="{{ combos.container }} pt4 pb5 relative flex flex-column flex-row-ns items-center {% if loop.index0 === 1 %}flex-row-reverse-ns {% endif %}">
+				<img src="{{ member.image }}" class="db br-100 mw5" alt="{{ member.name }}">
+				<div class="ph2 ph4-ns">
+					<h2 class="f2 mb2 lh-title">{{ member.name }}</h2>
+					<h3 class="mt0 f6 gray tracked ttu fw5">{{ member.instrument | safe }}</h3>
+					<p class="mt4 lh-copy measure">{{ member.description }}</p>
+				</div>
+			</div>
+		</section>
+	{% endfor %}
+
+	<section id="press" class="{{ combos.container }} lh-copy mt5">
+		<h2 class="f2 mb3 lh-title">Pressrelease</h2>
+		<div class="grid gc1 gc2-m gg2">
+			<div class="measure">
+				<h3 class="f4 lt-title">English</h3>
+				<p>Founded in 2008 the name Red Machete declares ROCK on every stage.</p>
+				<p>Heavily influenced by 70's rock bands they are writing and performing songs since the beginning. After gaining some experience on various stages the band released their first official EP called "Electric Power" in February 2013. This release marked the first step (on the long way) to the top without any compromises.</p>
+				<p>As Rock 'N' Roll Power Trio a lot of energy is produced on stage, heading straight through the audience to electrify them and don't let them forget the performance. With the sails set and headed forward the band continues to rock from stage to stage with full energy.</p>
+				<p>But the batteries are still fully charged and Red Machete continues rocking for the satisfaction of their audience and fans.</p>
+			</div>
+			<div class="measure">
+				<h3 class="f4 lt-title">German</h3>
+				<p>Seit 2008 steht der Name Red Machete für ROCK auf jeder Bühne.</p>
+				<p>Im Stil vieler 70er Rock Bands entstehen seit der Gründung Songs und werden in zahlreichen Live-Shows gelebt. Nach dem Sammeln einiger Bühnenerfahrung erschien im Februar 2013 ihre erste offizielle EP "Electric Power". Diese Veröffentlichung markierte den ersten Schritt am langen Weg zur Spitze ohne Kompromisse.</p>
+				<p>Als Rock 'N' Roll Power Trio entsteht eine geballte Ladung Energie auf der Bühne, die das Publikum mitreisst und den Auftritt nicht vergessen lässt. Mit gesetzten Segeln und dem Kurs voran rockt die Band mit voller Energie von Bühne zu Bühne.</p>
+				<p>Doch die Kräfte sind noch längst nicht erschöpft und Red Machete rocken weiterhin, um die Zuschauer und Fans mitzureissen.</p>
+			</div>
+		</div>
+		<a class="{{ combos.btn }} mv3" href="{{ global.presskit }}">Download Complete Presskit</a>
+
+		{{ presspics(global.presspics) }}
+
+	</section>
+</div>
+
+{% endblock %}

@@ -2,11 +2,12 @@
 <html lang="en">
 
 {% include "partials/head.html" %}
+{% set breakpoint_small = "30em" %}
 {% set combos = {
 	container: "mw8 ph3 ph4-ns center",
 	sitecontainer: "white pt5 pb6 lh-copy",
 	sitetitle: "w-100 f-subheadline f-headline-ns lh-solid white fw2",
-	spacer: "spacer vh-100 overflow-hidden flex flex-column justify-end",
+	spacer: "spacer vh-100 overflow-hidden flex flex-column justify-end bg-near-black",
 	btn: "btn link dim dib ph3 pv2 bg-rm-red white no-underline"
 } %}
 
@@ -18,7 +19,12 @@
 
 	{% block siteheader %}
 	<div class="{{ combos.spacer }}">
-		<h1 class="{{ combos.container }} {{ combos.sitetitle }} ">{{ sitetitle }}</h1>
+		<picture class="absolute absolute--fill z-0">
+			<source srcset="images/landing-{{ body_class }}.jpg" media="(min-width: {{ breakpoint_small }})">
+			<source srcset="images/landing-{{ body_class }}-xsmall.jpg">
+			<img src="images/landing-{{ body_class }}.jpg" alt="Band" class="absolute absolute--fill w-100 h-100">
+		</picture>
+		<h1 class="{{ combos.container }} {{ combos.sitetitle }} z-1 ts--black-80">{{ sitetitle }}</h1>
 	</div>
 	{% endblock %}
 

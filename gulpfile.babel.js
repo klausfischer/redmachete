@@ -49,7 +49,7 @@ gulp.task('clean', () => {
 
 gulp.task('copy', () => {
 	return gulp.src(['.htaccess'])
-		.pipe(gulp.dest(config.dist.root));
+		.pipe(gulp.dest(config.dest.root));
 });
 
 gulp.task('loadData', (cb) => {

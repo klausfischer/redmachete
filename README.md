@@ -19,5 +19,4 @@ npm run build
 
 - play button home
 - vinyl
-- header images
 - sold out products

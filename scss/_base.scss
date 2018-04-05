@@ -12,6 +12,11 @@ a {
 	color: $rm-red;
 }
 
+picture {
+	img {
+		object-fit: cover;
+	}
+}
 
 
 .db > svg {
@@ -28,13 +33,3 @@ a {
 	clip-path: polygon(0 6%, 100% 0%, 100% 91%, 0% 100%);
 }
 
-.spacer {
-	background-image: url('/images/landing-image.jpg');
-	background-position: top center;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.page--band .spacer {
-	background-image: url('/images/landing-image-band.jpg');
-}

@@ -4,7 +4,12 @@
 {% import "macros/gigtable.html" as gigtable %}
 
 {% block siteheader %}
-<div class="spacer vh-100 overflow-hidden flex justify-center items-center">
+<div class="spacer vh-100 overflow-hidden flex justify-center items-center relative">
+	<picture class="absolute absolute--fill z-0">
+		<source srcset="images/landing-{{ body_class }}.jpg" media="(min-width: {{ breakpoint_small }})">
+		<source srcset="images/landing-{{ body_class }}-xsmall.jpg">
+		<img src="images/landing-{{ body_class }}.jpg" alt="Band" class="absolute absolute--fill w-100 h-100">
+	</picture>
 	<a href="#" class="db pa3 br-100 bg-rm-red-70 white grow-large">
 		{{ "dist/images/icons/play.svg" | includeFile | safe }}
 	</a>

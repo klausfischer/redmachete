@@ -9,3 +9,9 @@
 .bg-rm-red-70 {
 	background-color: transparentize($rm-red, 0.2);
 }
+
+.bg-transparent-ns {
+	@media screen and (min-width: $breakpoint-small) {
+		background: transparent;
+	}
+}

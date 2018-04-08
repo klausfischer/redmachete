@@ -1,0 +1,29 @@
+{% set body_class = "vinyl" %}
+{% set sitetitle = "Vinyl" %}
+{% set noindex = true %}
+{% extends "default.html" %}
+
+{% block siteheader %}
+{% endblock %}
+
+{% block content %}
+<div class="{{ combos.container }} {{ combos.sitecontainer }}">
+	<h1 class="f3 f1-ns lh-title mt5">Thank you for buying <br>BRIGHT LIGHTS <br>vinyl edition!</h1>
+
+	<ol class="pl3">
+		<li>Use a Mac/Linux/PC or a device which can download and open .zip files.</li>
+		<li class="mt3">Enter your code below.</li>
+		<li class="mt3">After the download has started your code will be invalidated.</li>
+		<li class="mt3">If something goes wrong write us: <a class="link dim rm-red"href="mailto:band@redmachete.at">band@redmachete.at</a>.</li>
+	</ol>
+
+	<span class="green" hidden>Thanks! Download starts immediately, Rock out!</span>
+	<span class="rm-red" hidden>Oh, an error happened, please write us an email to <a class="link dim white"href="mailto:band@redmachete.at">band@redmachete.at</a>.</span>
+
+	<form class="mt4" id="form-vinyl">
+			<label for="form-vinyl__vinylcode" class="db b f6 ttu">Code:</label>
+			<input type="text" maxlength="15" id="form-vinyl__vinylcode" placeholder="XXXXXXXXXXXXXXX" class="{{ combos.input }} f4 code" required><br>
+			<button type="submit" class="{{ combos.btn }} bw0 mt3">Download</button>
+	</form>
+</div>
+{% endblock %}

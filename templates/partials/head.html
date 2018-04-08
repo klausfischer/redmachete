@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ global.site.description }}">
 
-  <!-- Opengraph-->
+	{# SEO #}
+	{% if noindex %}
+		<meta name="robots" content="noindex" />
+	{% endif %}
+
+  {# Open Graph #}
   <meta property="og:title" content="{{ global.site.title }}">
   <meta property="og:url" content="{{ global.site.url }}">
   <meta property="og:image" content="{{ global.site.img }}">
@@ -16,9 +21,9 @@
 	<meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
 
+	{# App Icons & Favicons #}
   <meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png?v={{global.site.version.cache}}">
 	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png?v={{global.site.version.cache}}">
 	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png?v={{global.site.version.cache}}">

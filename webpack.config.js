@@ -1,15 +1,32 @@
 const path = require('path');
+const eslintFriendlyFormatter = require('eslint-friendly-formatter');
+const webpack = require('webpack');
 
-const config = (mode) => ({
+function resolve(dir) {
+  return path.join(__dirname, dir);
+}
+
+const config = mode => ({
   entry: {
     redmachete: './js/main.js',
   },
   output: {
-    path: path.join(__dirname, 'dist', 'scripts'),
+    path: resolve('dist/scripts'),
     filename: '[name].js',
   },
   module: {
     rules: [
+      {
+        test: /\.js$/,
+        include: resolve('js'),
+        enforce: 'pre',
+        use: {
+          loader: 'eslint-loader',
+          options: {
+            formatter: eslintFriendlyFormatter,
+          },
+        },
+      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -20,6 +37,9 @@ const config = (mode) => ({
     ],
   },
   mode,
+  plugins: [
+    new webpack.LoaderOptionsPlugin({ options: {} }),
+  ],
 });
 
 module.exports = config;

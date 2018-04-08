@@ -9,6 +9,7 @@ import fs from 'fs';
 import gulp from 'gulp';
 import imagemin from 'gulp-imagemin';
 import nunjucksRender from 'gulp-nunjucks-render';
+import php from 'gulp-connect-php';
 import pkg from './package.json';
 import pngquant from 'imagemin-pngquant';
 import postCSS from 'gulp-postcss';
@@ -48,7 +49,7 @@ gulp.task('clean', () => {
 });
 
 gulp.task('copy', () => {
-	return gulp.src(['.htaccess'])
+	return gulp.src(['.htaccess', 'vinyldownload/**/*'], {base: "."})
 		.pipe(gulp.dest(config.dest.root));
 });
 
@@ -70,15 +71,6 @@ gulp.task('sass', () => {
 		]))
     .pipe(gulp.dest(config.dest.styles))
     .pipe(browserSync.stream());
-});
-
-gulp.task('scripts', () => {
-  return gulp.src([
-	  	'js/main.js'
-  	])
-    .pipe(concat({ path: 'main.js'}))
-    .pipe(browserSync.reload({ stream: true }))
-    .pipe(gulp.dest(config.dest.scripts));
 });
 
 const extendNunjucksEnv = function(environment) {
@@ -116,19 +108,36 @@ gulp.task('watch', () => {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
 		});
 
-    gulp.watch(`${config.src.scripts}/**.js`, ['scripts']).on('change', browserSync.reload);
+    gulp.watch(['.htaccess', 'vinyldownload/**/*'], ['copy', browserSync.reload]);
     gulp.watch([config.src.pages, 'data/**/*.json', `${config.src.templates}/**/*.html`], ['nunjucks', browserSync.reload]);
 
 });
 
-gulp.task('browser-sync', () => {
+gulp.task('php', function () {
+	php.server({
+			hostname: '0.0.0.0',
+			base: 'dist',
+			port: 4040,
+			open: false
+	});
+});
+
+gulp.task('browser-sync', ['php'], () => {
   browserSync.init({
-		open: false,
-    server: {
-			baseDir: config.dest.root,
-    }
+		open: true,
+		port: 4200,
+    proxy: {
+			target: 'http://localhost:4040',
+			reqHeaders: function (config) {
+				return {
+					'accept-encoding': 'identity',
+					'agent': false
+				}
+			}
+		},
+		reloadDelay: 1000,
   });
 });
 
-gulp.task('default', ['clean', 'copy', 'sass', 'nunjucks', 'images', 'scripts', 'watch', 'browser-sync']);
-gulp.task('build',   ['clean', 'copy', 'sass', 'nunjucks', 'images', 'scripts']);
+gulp.task('default', ['clean', 'copy', 'sass', 'nunjucks', 'images', 'watch', 'browser-sync']);
+gulp.task('build',   ['clean', 'copy', 'sass', 'nunjucks', 'images']);

@@ -35,7 +35,7 @@ gulp.task('clean', () => {
 });
 
 gulp.task('copy', () =>
-  gulp.src(['.htaccess', 'vinyldownload/**/*'], { base: '.' })
+  gulp.src(['.htaccess', 'sitemap.xml', 'vinyldownload/**/*'], { base: '.' })
     .pipe(gulp.dest(config.dest.root)));
 
 gulp.task('loadData', (cb) => {

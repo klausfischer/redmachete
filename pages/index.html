@@ -10,8 +10,8 @@
 		<source srcset="images/landing-{{ body_class }}-xsmall.jpg">
 		<img src="images/landing-{{ body_class }}.jpg" alt="Band" class="absolute absolute--fill w-100 h-100">
 	</picture>
-	<a href="#" class="db pa3 br-100 bg-rm-red-70 white grow-large">
-		{{ "dist/images/icons/play.svg" | includeFile | safe }}
+	<a href="#" class="db pa3 br-100 bg-rm-red-70 white grow-large" data-rm-videocontroller='{"youtubeUrl": "//www.youtube.com/embed/YAQmitAbXTo"}' title="Play Video">
+		{{ "dist/images/icons/play.svg" | includeFile | safe }}<span class="clip">Play Video</span>
 	</a>
 </div>
 {% endblock %}

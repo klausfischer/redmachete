@@ -17,4 +17,4 @@ npm run build
 
 ## TODO
 
-- play button home
+- improve shitty videocontroller

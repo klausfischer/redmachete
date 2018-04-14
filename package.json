@@ -4,9 +4,8 @@
   "description": "Finest Rock 'N' Roll ",
   "main": "index.html",
   "scripts": {
-    "dev": "BABEL_ENV=test gulp --require @babel/register",
-    "build": "BABEL_ENV=test gulp build --require @babel/register && webpack -p",
-    "scripts": "webpack -d -w"
+    "dev": "concurrently -k \"BABEL_ENV=development gulp --require @babel/register\" \"webpack -d -w\"",
+    "build": "BABEL_ENV=production gulp build --require @babel/register && webpack -p"
   },
   "repository": {
     "type": "git"
@@ -26,6 +25,7 @@
     "babel-eslint": "^8.2.2",
     "babel-loader": "^8.0.0-beta.0",
     "browser-sync": "^2.9.11",
+    "concurrently": "^3.5.1",
     "cssnano": "^3.10.0",
     "del": "^3.0.0",
     "eslint": "^4.19.1",

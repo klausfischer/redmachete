@@ -18,5 +18,3 @@ npm run build
 ## TODO
 
 - play button home
-- vinyl
-- sold out products

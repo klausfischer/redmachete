@@ -1,6 +1,6 @@
 # Red Machete Website
 
-> Finest Rock 'N' Roll from Austria
+> Finest Rock 'N' Roll from Austria: [www.redmachete.at](www.redmachete.at)
 
 ## Setup
 
@@ -18,3 +18,4 @@ npm run build
 ## TODO
 
 - improve shitty videocontroller
+- add ipad portrait images

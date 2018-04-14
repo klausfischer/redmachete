@@ -1,11 +1,12 @@
 {
   "name": "redmachete-website",
-  "version": "1.0.0",
-  "description": "Finest Rock 'N' Roll ",
+  "version": "1.1.0",
+  "description": "Finest Rock 'N' Roll",
   "main": "index.html",
   "scripts": {
     "dev": "concurrently -k \"BABEL_ENV=development gulp --require @babel/register\" \"webpack -d -w\"",
-    "build": "BABEL_ENV=production gulp build --require @babel/register && webpack -p"
+    "build": "BABEL_ENV=production gulp build --require @babel/register && webpack -p",
+    "release": "npx standard-version"
   },
   "repository": {
     "type": "git"
@@ -47,6 +48,7 @@
     "imagemin-pngquant": "^5.1.0",
     "lodash": "^4.17.5",
     "pump": "^3.0.0",
+    "standard-version": "^4.3.0",
     "svgo": "^1.0.5",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"

@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/klausfischer/redmachete/compare/v1.1.1...v1.2.0) (2019-01-02)
+
+
+### Features
+
+* Add fb links ([bcf31e6](https://github.com/klausfischer/redmachete/commit/bcf31e6))
+* Add more gigs ([38e4857](https://github.com/klausfischer/redmachete/commit/38e4857))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](/compare/v1.1.0...v1.1.1) (2018-04-14)
 

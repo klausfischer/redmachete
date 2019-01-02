@@ -15,13 +15,15 @@
 		},
 		{
 			"date": "29.06.2018",
-			"place": "Wolkersdorf",
-			"event": "Open Air"
+			"place": "Wolkersdorf / Obersdorf",
+			"event": "Open Air",
+			"link": "https://www.facebook.com/events/185167592092347/"
 		},
 		{
 			"date": "18.08.2018",
 			"place": "Linz - Kronefest",
-			"event": "Herberstein Bühne"
+			"event": "Herberstein Bühne",
+			"link": "https://www.facebook.com/events/163629974355493/"
 		},
 		{
 			"date": "16.10.2018",
@@ -34,6 +36,12 @@
 			"place": "Linz - Smaragd",
 			"event": "w/ Jail Job Eve",
 			"link": "https://www.facebook.com/events/1586333721483349/"
+		},
+		{
+			"date": "10.11.2018",
+			"place": "Linz - Maestro",
+			"event": "Lange Nacht der Bühnen",
+			"link": "https://www.facebook.com/events/725474417790046/"
 		},
 		{
 			"date": "07.12.2018",

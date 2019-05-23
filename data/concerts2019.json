@@ -1,0 +1,35 @@
+{
+	"title": "2019",
+	"concerts": [
+		{
+			"date": "05.04.2019",
+			"place": "Schlosserei Weyer",
+			"event": "w/ Eastwood Haze",
+			"link": "https://www.facebook.com/events/301982033798085/"
+		},
+		{
+			"date": "25.05.2019",
+			"place": "Linz",
+			"event": "Smaragd",
+			"link": "https://www.facebook.com/events/421090055289417/"
+		},
+		{
+			"date": "21.06.2019",
+			"place": "Mauthausen - Welcome",
+			"event": "w/ Sterns Soul H",
+			"link": "https://www.facebook.com/events/334356394106068/"
+		},
+		{
+			"date": "22.06.2019",
+			"place": "Wien - B72",
+			"event": "w/ Roadwolf",
+			"link": "https://www.facebook.com/events/956508864740403/"
+		},
+		{
+			"date": "05.08.2019",
+			"place": "Linz",
+			"event": "Ars Electronica Open Air",
+			"link": "https://www.facebook.com/events/2285117105092976/"
+		}
+	]
+}

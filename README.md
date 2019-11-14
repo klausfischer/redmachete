@@ -5,6 +5,7 @@
 ## Setup
 
 ```bash
+nvm use 10
 npm install
 npm run dev
 ```

@@ -1,7 +1,7 @@
-import fs from 'fs';
-import path from 'path';
-import glob from 'glob';
-import set from 'lodash/set';
+const fs = require('fs');
+const path = require('path');
+const glob = require('glob');
+const set = require('lodash/set');
 
 const data = (globPattern) => {
 	return new Promise((resolve, reject) => {
@@ -28,4 +28,4 @@ const data = (globPattern) => {
 	});
 };
 
-export default data;
+module.exports = data;

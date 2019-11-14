@@ -1,20 +1,20 @@
-import autoprefixer from 'autoprefixer';
-import browserSync from 'browser-sync';
-import cssnano from 'cssnano';
-import del from 'del';
-import fs from 'fs';
-import gulp from 'gulp';
-import imagemin from 'gulp-imagemin';
-import nunjucksRender from 'gulp-nunjucks-render';
-import php from 'gulp-connect-php';
-import pngquant from 'imagemin-pngquant';
-import postCSS from 'gulp-postcss';
-import pump from 'pump';
-import sass from 'gulp-sass';
-import sassGlob from 'gulp-sass-glob';
-import config from './config.json';
-import data from './data';
-import pkg from './package.json';
+const autoprefixer = require('autoprefixer');
+const browserSync = require('browser-sync');
+const cssnano = require('cssnano');
+const del = require('del');
+const fs = require('fs');
+const gulp = require('gulp');
+const imagemin = require('gulp-imagemin');
+const nunjucksRender = require('gulp-nunjucks-render');
+const php = require('gulp-connect-php');
+const pngquant = require('imagemin-pngquant');
+const postCSS = require('gulp-postcss');
+const pump = require('pump');
+const sass = require('gulp-sass');
+const sassGlob = require('gulp-sass-glob');
+const config = require('./config.json');
+const data = require('./data');
+const pkg = require('./package.json');
 
 const svgoPlugins = [
   { cleanupIDs: false },
@@ -83,6 +83,7 @@ gulp.task('images', () =>
     .pipe(gulp.dest(config.dest.images)));
 
 gulp.task('watch', () => {
+  gulp.watch(`${config.src.images}/**/*.jpg`, ['images']);
   gulp.watch(`${config.src.styles}/**/*.scss`, ['sass']);
   gulp.watch(['.htaccess', 'vinyldownload/**/*'], ['copy', browserSync.reload]);
   gulp.watch([config.src.pages, 'data/**/*.json', `${config.src.templates}/**/*.html`], ['nunjucks', browserSync.reload]);

@@ -1,6 +1,6 @@
 {% macro gigtable(title, gigs) %}
 {% set combos = {
-	tableheader: "fw7 tracked f6 ttu mid-gray tl bb b--dark-gray pv3 pr3"
+	tableheader: "fw7 tracked f6 ttu silver tl bb b--dark-gray pv3 pr3"
 } %}
 <div class="gigtable overflow-auto mt4">
 
@@ -22,7 +22,7 @@
 				<td class="pv2 pr3 bb b--dark-gray mw4 w5-ns w7-m truncate">{{ gig.place }}</td>
 				<td class="pv2 pr3 bb b--dark-gray">
 					{% if gig.link %}
-						<a class="link dim" href="{{ gig.link }}" target="_blank">{{ gig.event }}</a>
+						<a class="link dim" href="{{ gig.link }}" target="_blank" rel="noopener,noreferrer">{{ gig.event }}</a>
 					{% else %}
 						{{ gig.event }}
 					{% endif %}

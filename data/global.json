@@ -54,23 +54,24 @@
 	"presskit": "https://www.dropbox.com/s/pkib6z5plghbv65/RedMachetePresskit2020.zip?dl=0",
 	"presspics": [
 		{
-			"filename": "presspic-wood",
-			"description_rgb": "RGB (0,7MB)",
-			"description_cmyk": "CMYK (3,0MB)"
+			"filename": "redmachete-standing"
 		},
 		{
-			"filename": "live",
-			"description_rgb": "RGB (0,7MB)",
-			"description_cmyk": "CMYK (2,9MB)"
+			"filename": "redmachete-chair"
 		},
 		{
-			"filename": "presspic-chair",
-			"description_rgb": "RGB (0,7MB)",
-			"description_cmyk": "CMYK (2,9MB)"
+			"filename": "redmachete-friendly"
+		},
+		{
+			"filename": "redmachete-glasses"
 		}
 	],
 	"mainnav": {
 		"items": [
+			{
+				"link": "/index#dates",
+				"label": "Dates"
+			},
 			{
 				"link": "/band",
 				"label": "Band"

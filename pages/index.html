@@ -8,7 +8,7 @@
 	<picture class="absolute absolute--fill z-0 h0 db bg-near-black" style="padding-bottom: 100vh;">
 		<source srcset="images/landing-{{ body_class }}.jpg" media="(min-width: {{ breakpoint_small }})">
 		<source srcset="images/landing-{{ body_class }}-xsmall.jpg">
-		<img src="images/landing-{{ body_class }}.jpg" alt="Band" class="absolute absolute--fill w-100 h-100 lazyload">
+		<img src="images/landing-{{ body_class }}.jpg" alt="Band" class="lazyload">
 	</picture>
 	<a href="#" class="db pa3 mt6-ns br-100 bg-rm-red-70 white grow-large" data-rm-videocontroller='{"youtubeUrl": "//www.youtube.com/embed/YAQmitAbXTo"}' title="Play Video">
 		{{ "dist/images/icons/play.svg" | includeFile | safe }}<span class="clip">Play Video</span>

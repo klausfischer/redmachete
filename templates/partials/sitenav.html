@@ -1,8 +1,9 @@
-<div class="sitenav absolute w-100 z-1 bg-black-50 bg-transparent-ns">
+<div class="sitenav absolute w-100 z-1 {% if body_class !== 'index' %}bg-black-50{% endif %} bg-transparent-ns">
 	<nav class="pv4 flex-ns justify-between-ns mw8 ph3 ph4-ns center">
 		<a href="/" class="sitelogo dim white db mw-100 flex-ns flex-column-ns justify-center-ns">
 			{{ 'dist/images/logo.svg' | includeFile | safe }} <span class="clip">Red Machete Logo</span>
 		</a>
+
 		<ul class="list ma0 pa0 flex justify-center">
 		{% for item in global.mainnav.items %}
 			<li class="dib">

@@ -15,8 +15,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## TODO
-
-- improve shitty videocontroller
-- add ipad portrait images

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/klausfischer/redmachete/compare/v1.4.0...v1.5.0) (2020-09-06)
+
+
+### Features
+
+* Add gigs for 2020 ([2e1306d](https://github.com/klausfischer/redmachete/commit/2e1306d94aee950d01fb3e142d9a6d153fb5b656))
+
 ## [1.4.0](https://github.com/klausfischer/redmachete/compare/v1.3.1...v1.4.0) (2019-11-17)
 
 

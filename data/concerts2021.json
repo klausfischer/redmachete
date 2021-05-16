@@ -2,15 +2,27 @@
 	"title": "2021",
 	"concerts": [
 		{
-			"date": "09.07.2021",
-			"place": "Clam Rock",
-			"event": "w/ Deep Purple",
-			"link": "https://www.facebook.com/events/461060048005566/"
+			"date": "02.07.2021",
+			"place": "Linz",
+			"event": "Musikpavillon",
+			"link": "https://www.facebook.com/events/2548705485436014/"
 		},
 		{
 			"date": "10.07.2021",
 			"place": "MC Mühlheim West",
 			"event": "35. Bikerparty"
+		},
+		{
+			"date": "16.10.2021",
+			"place": "Enns - Zuckerfabrik",
+			"event": "w/ Sterns",
+			"link": "https://www.facebook.com/events/842196109975647/"
+		},
+		{
+			"date": "26.11.2021",
+			"place": "Linz",
+			"event": "Kultur HOF",
+			"link": "https://www.facebook.com/events/1307324816270949/"
 		}
 	]
 }

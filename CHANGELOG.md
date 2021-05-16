@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/klausfischer/redmachete/compare/v1.5.0...v1.5.1) (2021-05-16)
+
+
+### Bug Fixes
+
+* Correct instagram channel and presskit ([e7c7934](https://github.com/klausfischer/redmachete/commit/e7c79348963872b9095386df3906fd2f6db0a047))
+
 ## [1.5.0](https://github.com/klausfischer/redmachete/compare/v1.4.0...v1.5.0) (2020-09-06)
 
 

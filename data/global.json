@@ -8,7 +8,7 @@
 		"url": "http://www.redmachete.at",
 		"img": "http://www.redmachete.at/images/share.jpg",
 		"fb_url": "https://facebook.com/redmachete",
-		"ig_url": "https://www.instagram.com/explore/tags/redmachete/",
+		"ig_url": "https://www.instagram.com/redmacheterocks",
 		"yt_url": "https://www.youtube.com/redmachete/",
 		"social_channels": [
 			{
@@ -19,7 +19,7 @@
 			{
 				"name": "Instagram",
 				"icon": "dist/images/icons/instagram.svg",
-				"url": "https://www.instagram.com/explore/tags/redmachete/"
+				"url": "https://www.instagram.com/redmacheterocks"
 			},
 			{
 				"name": "YouTube",
@@ -51,7 +51,7 @@
 			"description": "At the back a 1982 Tama Superstar drumkit gets smashed every gig and is still looking like 3 weeks old. Thunderous grooves and lots of sweat are the special ingredients of Klaus, completing the experience of a real rock show."
 		}
 	],
-	"presskit": "https://www.dropbox.com/s/pkib6z5plghbv65/RedMachetePresskit2020.zip?dl=0",
+	"presskit": "https://www.dropbox.com/s/vq71foa8b5x7wux/Presskit2020.zip?dl=0",
 	"presspics": [
 		{
 			"filename": "redmachete-standing"
